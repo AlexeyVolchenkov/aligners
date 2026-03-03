@@ -2,7 +2,7 @@ import time
 from pathlib import Path
 from bournemouth_aligner import PhonemeTimestampAligner
 
-directory_path = "./input/ruslan/test/audio"  # путь до корпуса
+directory_path = "../../input/ruslan/audio_16khz"  # путь до корпуса
 
 input_path = Path(directory_path)
 output_dir = input_path.parent / "out"
